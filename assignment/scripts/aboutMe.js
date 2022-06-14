@@ -23,8 +23,9 @@ console.log(fullName);
 // console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
-console.log(adventurous);
+
+// let adventurous = true;
+// console.log(adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'tacos';
@@ -48,11 +49,12 @@ const allowedPets = 2;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if (adventurous) {
-    console.log("Adventures are fun!");
-} else {
-    console.log("Let's stay home.");
-}
+
+// if (adventurous) {
+//     console.log("Adventures are fun!");
+// } else {
+//     console.log("Let's stay home.");
+// }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
@@ -123,4 +125,8 @@ switch (luckyNumber) {
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+const adventurous = false;
+adventurous = true ? console.log("Adventures are fun!") :
+    console.log("Let's stay home.");
 
